@@ -1,0 +1,251 @@
+.Sandro:hover{
+color:rgba(0,0,0,0)}
+.Sandro{
+  background-image:linear-gradient(to right,red,limegreen);
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align: left;
+  transition: color .2s ease-in-out;}
+.Samplesale{
+  background-image:linear-gradient(to right,pink,limegreen);
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align: left;
+  transition: color .2s ease-in-out;
+}
+.Samplesale:hover {
+color:rgba(0,0,0,0)
+}
+.invitation:hover {
+ color:rgba(0,0,0,0);
+}
+.invitation {
+ background-image:linear-gradient(to right,pink,limegreen);
+ background-clip: text;
+ -webkit-background-clip:text;
+ color:rgba(0,0,0,1);
+ display:block;
+ text-align: left;
+ transition: color .2s ease-in-out;}
+
+.opentothepublic:hover {
+   color:rgba(0,0,0,0);}
+.opentothepublic{
+  background-image:linear-gradient(to right,pink,limegreen);
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align: left;
+  transition: color .2s ease-in-out;
+}
+.time:hover{
+  color:rgba(0,0,0,0);}
+.time{
+  background-image:linear-gradient(to right,pink,limegreen);
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align: left;
+  transition: color .2s ease-in-out;
+}
+.location:hover{
+color:rgba(0,0,0,0)
+}
+.location{
+  background-image:linear-gradient(to right,pink,limegreen);
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  display:block;
+  text-align: left;
+  transition: color .2s ease-in-out;
+}
+.logo:hover{
+
+}
+.paris:hover{
+
+}
+
+h1 {
+  color: black;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 50px;
+  letter-spacing: 20px;
+  margin-left: 800px;
+  text-align: right;
+}
+h2 {
+  color: black;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 7px;
+  margin-left: 800px;
+  text-align: right;
+  line-height: 100px;
+}
+h3{
+  color: black;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 5px;
+  margin-left: 800px;
+  text-align: right;
+  line-height: 100px;
+}
+h4{
+  color: black;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-weight:lighter;
+  letter-spacing: 3px;
+  margin-left: 800px;
+  text-align: left;
+}
+.logo{
+
+}
+.background{
+  width: 99%;
+  height: 99%;
+  background-color: #fffaf4;
+  position: absolute;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: black
+ animation-name: slidein;
+ animation-duration: 4s; /* or: Xms */
+ animation-iteration-count: 10;
+ animation-direction: alternate; /* or: normal */
+ animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+ animation-fill-mode: forwards; /* or: backwards, both, none */
+ animation-delay: 2s; /* or: Xms */
+}
+
+
+body{
+  overflow: hidden;
+  background:#fffaf4;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.vertical-lines1 {
+  width: 1px;
+  height: 0;
+  background-color: black;
+  animation-name: vertical-lineone;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+.vertical-lines3 {
+  width: 1px;
+  height: 0;
+  background-color: black;
+  animation-name: vertical-linethree;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+.vertical-lines5 {
+  width: 1px;
+  height: 0;
+  background-color: black;
+  animation-name: vertical-linefive;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+
+@keyframes vertical-lineone {
+   0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 16.6%;
+  }
+}
+
+@keyframes vertical-linethree {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 49.8%;
+  }
+}
+
+@keyframes vertical-linefive {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 83%;
+    z-index: 2
+  }
+}
